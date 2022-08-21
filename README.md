@@ -63,3 +63,20 @@ Event Sourcing           : Event Driven Desing'ın bir alt kümesi olarak hayat�
 
 
  Aggregate : Axon'un command dünyasını yöneten kısmı.
+ 
+ 
+ ![CQRS3](https://user-images.githubusercontent.com/101670417/185770628-3329f5eb-9fcf-4da4-bc52-e0def8e515f1.jpg)
+ 
+ 
+  @Aggregate : Axon tarafındaki @Entity olarak varsayabiliriz ( Entity'dir diyemeyiz.Anlaması kolay olsun.)
+  
+  @AggregateIdentifier: Her entity'de bir Id(Identifier) vardı. Axon tarafındaki karşılığı ise bu anotasyondur.
+
+  ### Aggregate Metodları
+
+  Bu metodlar bazı komutlara istinaden çağırılacaklar. Biz aggregate' e ait metodları dışarıdan çağırmıyoruz.
+
+  @CommandHandler : Aggregate'e ait metodları çağırıken kullanacağımız anotasyon.
+
+  @EventSourcingHandler : State değişimi yapılıp son halinin Axon Server'a yazılmasını sağlayan anostasyondur.
+
