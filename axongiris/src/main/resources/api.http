@@ -1,0 +1,3 @@
+// Postman yerine tercih edilebilir.
+
+POST http://localhost:8080/v1/api/order/create
