@@ -79,4 +79,23 @@ Event Sourcing           : Event Driven Desing'ın bir alt kümesi olarak hayat�
   @CommandHandler : Aggregate'e ait metodları çağırıken kullanacağımız anotasyon.
 
   @EventSourcingHandler : State değişimi yapılıp son halinin Axon Server'a yazılmasını sağlayan anostasyondur.
+  
+  
+  @EventHandler : Axon'dan fırlatılan eventler.
+
+  @EventSourcingHandler : Benim Axon'a fırlattığım eventler.
+  
+  
+  
+  ![r1](https://user-images.githubusercontent.com/101670417/185797395-6ea28268-8285-45a8-8b4a-af6c86e9194c.jpg)
+  
+  
+  ![r2](https://user-images.githubusercontent.com/101670417/185797400-a602458d-b7fc-4b38-9995-fa78612884b6.jpg)
+  
+  
+  ![r3](https://user-images.githubusercontent.com/101670417/185797408-874ef465-1f81-44cb-94d0-8a7d1482b002.jpg)
+
+
+
+  
 
